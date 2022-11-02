@@ -9,6 +9,7 @@ class Calculator
 
     public function evaluate($num1, $num2){
         private $mezua="shut up"
+        private $mezua3="shut up"
         $func = $this->operator;
         return $this->$func($num1, $num2);
     }
